@@ -1,0 +1,14 @@
+---
+---
+<html>
+  <head>
+    <title><%= site.metadata.title %></title>
+  </head>
+  <body>
+    <header>
+      <%= render Bridgetown::Menu.new(:main_menu, resource) %>
+    </header>
+
+    <%= yield %>
+  </body>
+</html>

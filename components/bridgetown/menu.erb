@@ -1,0 +1,7 @@
+<nav data-menu-name="<%= menu.name %>" aria-label="<%= menu.title %>">
+  <ul>
+    <%- menu.items.each do |item| %>
+      <li<%= active_flag(item) %>><a href="<%= item.url %>"><%= item.localize? ? t(item.label) : item.label %></a></li>
+    <%- end %>
+  </ul>
+</nav>

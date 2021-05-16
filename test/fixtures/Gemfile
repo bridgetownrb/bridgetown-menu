@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "bridgetown", ENV["BRIDGETOWN_VERSION"] if ENV["BRIDGETOWN_VERSION"]
+
+group :bridgetown_plugins do
+  gem "bridgetown-menu", path: "../../"
+end
