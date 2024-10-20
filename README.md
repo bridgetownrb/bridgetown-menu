@@ -1,5 +1,10 @@
 # Bridgetown::Menu
 
+> [!WARNING]
+> This plugin is considered "as-is" and I don't anticpate developing it any further. If you submit an interesting PR, I'm willing to merge it, but otherwise…it's done.
+
+----
+
 A Bridgetown plugin and Ruby component for defining and rendering navigation menus.
 
 ## Installation
